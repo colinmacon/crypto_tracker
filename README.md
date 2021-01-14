@@ -24,7 +24,7 @@ NOTE: Users do experience trouble install TA-Lib
 Install the dependencies and then run the main.py script to ensure everything is working properly.
 
 ```sh
-$ setup.sh
+$ bash setup.sh  #might need sudo
 $ python3 main.py
 ```
 
