@@ -8,7 +8,7 @@ class CLI:
     def interface(self):
         #Intro text
         f = Figlet(font='slant')
-        print(f.renderText('CrytoTracker'))
+        print(f.renderText('CryptoTracker'))
 
         print("***************************************************")
         print("***   To confirm selection press Enter/Return   ***")
@@ -17,7 +17,7 @@ class CLI:
         #CLI Questions
         questions = [
             inquirer.Checkbox('coin',
-                              message="Please select a crytocurrency (use right/left arrow keys to select)",
+                              message="Please select a cryptocurrency (use left/right arrow keys to select)",
                               choices=[
                                   ('Bitcoin', 'BTC'),
                                   ('Litecoin', 'LTC'),
