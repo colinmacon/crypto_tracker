@@ -17,7 +17,7 @@ class CLI:
         #CLI Questions
         questions = [
             inquirer.Checkbox('coin',
-                              message="Please select a cryptocurrency (use up/down arrow keys to select)",
+                              message="Please select a cryptocurrency (use left/right arrow keys to select)",
                               choices=[
                                   ('Bitcoin', 'BTC'),
                                   ('Litecoin', 'LTC'),
